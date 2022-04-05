@@ -7,7 +7,7 @@ Use ``git`` to install it from our repository.
 
 ```bash
 $ git clone https://github.com/fg33140/GroupieTracker.git
-$ cd groupie-tracker
+$ cd GroupieTracker
 $ go build
 ```
 
