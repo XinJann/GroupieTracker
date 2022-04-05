@@ -6,7 +6,7 @@ This is a web application written in golang tracking the [heroku api](https://gr
 Use ``git`` to install it from our repository.
 
 ```bash
-$ git clone https://git.ytrack.learn.ynov.com/CBRUN/groupie-tracker.git
+$ git clone https://github.com/fg33140/GroupieTracker.git
 $ cd groupie-tracker
 $ go build
 ```
