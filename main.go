@@ -40,7 +40,7 @@ func main() {
 	log.Printf("[INFO] - Starting server on http://" + ADDR + ":" + PORT + "/")
 
 	go bandsData.WaitThenRefreshApi()
-	err := http.ListenAndServe(ADDR+":"+PORT, nil)
+	err := http.ListenAndServe(":"+PORT, nil)
 	if err != nil {
 		log.Fatal("[ERROR] - Server not started properly.\n" + err.Error())
 	}
